@@ -2,14 +2,15 @@
 """
 Prime Game Module
 
-This module contains functions to simulate a game where two players, Maria and Ben,
-take turns picking prime numbers from a set of consecutive integers. The game 
-is played over multiple rounds, and the module includes functions for generating 
-prime numbers and determining the winner.
+This module contains functions to simulate a game where two players,
+Maria and Ben, take turns picking prime numbers from a set of consecutive
+integers. The game is played over multiple rounds,
+and the module includes functions for generating prime numbers and determining
+the winner.
 
 Functions:
     sieve_of_eratosthenes(n): Generates prime numbers up to a given number `n`.
-    isWinner(x, nums): Determines the winner of the Prime Game after `x` rounds.
+    isWinner(x, nums): Determines the winner of the Prime Game after `x` rounds
 """
 
 
@@ -42,16 +43,16 @@ def isWinner(x, nums):
     Determine the winner of the Prime Game for multiple rounds.
 
     The game involves two players, Maria and Ben, taking turns choosing
-    prime numbers from a set of consecutive integers. The player who 
+    prime numbers from a set of consecutive integers. The player who
     cannot make a move loses the game.
 
     Args:
         x (int): The number of rounds to play.
-        nums (list): A list of integers representing the maximum number 
+        nums (list): A list of integers representing the maximum number
                      for each round.
 
     Returns:
-        str: The name of the player who won the most rounds 
+        str: The name of the player who won the most rounds
              ('Maria' or 'Ben'), or None if it's a tie.
     """
     wins = []
