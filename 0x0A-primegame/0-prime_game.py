@@ -23,6 +23,8 @@ def sieve_of_eratosthenes(n):
     Returns:
         list: A list of prime numbers up to n.
     """
+    if n <= 0:
+        return [0]
     primes = [True] * (n + 1)
     primes[0] = primes[1] = False
 

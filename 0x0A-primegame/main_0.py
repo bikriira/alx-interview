@@ -22,3 +22,6 @@ print("Winner: {}".format(isWinner(4, [1, 1, 1, 1])))  # Expected Output: Ben
 
 # Test Case 8: Very large n to test upper bound
 print("Winner: {}".format(isWinner(1, [10000])))  # Expected Output: (depends on game logic, likely Maria or Ben)
+print("Winner: {}".format(isWinner(1, [100])))
+print("Winner: {}".format(isWinner(1000, [100] * 1000)))
+print("Winner: {}".format(isWinner(6, [1, 1, 0, 0, 1, 8])))
