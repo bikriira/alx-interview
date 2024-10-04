@@ -1,4 +1,17 @@
 #!/usr/bin/python3
+"""
+Prime Game Module
+
+This module contains functions to simulate a game where two players, Maria and Ben,
+take turns picking prime numbers from a set of consecutive integers. The game 
+is played over multiple rounds, and the module includes functions for generating 
+prime numbers and determining the winner.
+
+Functions:
+    sieve_of_eratosthenes(n): Generates prime numbers up to a given number `n`.
+    isWinner(x, nums): Determines the winner of the Prime Game after `x` rounds.
+"""
+
 
 def sieve_of_eratosthenes(n):
     """
